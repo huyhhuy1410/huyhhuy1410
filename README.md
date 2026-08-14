@@ -21,7 +21,6 @@
 ### 🚀 Key Projects & Code Highlights
 * 🎟️ **[travel-distribution-core](https://github.com/huyhhuy1410/travel-distribution-core)** — Laravel 13 B2B travel distribution API implementing database transactions with pessimistic locks (`FOR UPDATE`), tiered commission ledgers, and Redis payment idempotency.
 * ⚡ **[ticket-realtime-hub](https://github.com/huyhhuy1410/ticket-realtime-hub)** — Node.js/TypeScript seat reservation service featuring Redis atomic locks (`SET EX NX` with 5-minute TTL), lazy expiry cleanup, and Socket.io seat-map sync.
-* 🚗 **[vehicle-service-scheduler](https://github.com/huyhhuy1410/vehicle-service-scheduler)** — NestJS & PostgreSQL vehicle service booking system with technician-to-bay matching and concurrent double-booking guards backed by E2E test suites.
 * 🏠 **[boarding-house-manager](https://github.com/huyhhuy1410/boarding-house-manager)** — Full-stack React 18/Express PWA with atomic tenant room transfers within database transactions and Telegram Bot webhook (`/bill`) integration.
 * 💳 **[vnpay-wc-gateway](https://github.com/huyhhuy1410/vnpay-wc-gateway)** — Production-grade WooCommerce payment gateway supporting High-Performance Order Storage (HPOS), HMAC-SHA512 signing, and automated log retention cron.
 
