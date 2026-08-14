@@ -1,0 +1,36 @@
+# Hi, I'm Vo Quang Huy (Parker) 👋
+
+> **Backend Developer** based in Ho Chi Minh City, Vietnam.  
+> 3+ years of professional experience delivering **50+ web applications** at MONA Media. Specialized in **PHP, Laravel, custom WordPress/WooCommerce plugins**, and **Node.js/TypeScript** backend services.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/huy-vo-5b583226b/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/huyhhuy1410)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:huyhhuy1410@gmail.com)
+
+---
+
+### ⚙️ Technical Focus & Engineering Depth
+* **Languages & Core:** PHP 8.x, TypeScript, Node.js, Python, SQL (MySQL 8, PostgreSQL).
+* **Frameworks & CMS:** Laravel 13, WordPress / WooCommerce (Custom Action/Filter Hooks, REST API, HPOS), Express.js, NestJS.
+* **Concurrency & Financial Integrity:** Pessimistic database locking (`SELECT ... FOR UPDATE`), double-entry ledger logic, Redis distributed locks (`SET EX NX`), and webhook idempotency keys.
+* **Payment Gateways & Security:** VNPAY, Momo, HMAC-SHA512 checksum validation, and IPN verification.
+* **Quality & Tooling:** Docker Compose, Linux, Git, PHPUnit, Jest, Vitest, Codex, Antigravity, Claude Code.
+
+---
+
+### 🚀 Key Projects & Code Highlights
+* 🎟️ **[travel-distribution-core](https://github.com/huyhhuy1410/travel-distribution-core)** — Laravel 13 B2B travel distribution API implementing database transactions with pessimistic locks (`FOR UPDATE`), tiered commission ledgers, and Redis payment idempotency.
+* ⚡ **[ticket-realtime-hub](https://github.com/huyhhuy1410/ticket-realtime-hub)** — Node.js/TypeScript seat reservation service featuring Redis atomic locks (`SET EX NX` with 5-minute TTL), lazy expiry cleanup, and Socket.io seat-map sync.
+* 🚗 **[vehicle-service-scheduler](https://github.com/huyhhuy1410/vehicle-service-scheduler)** — NestJS & PostgreSQL vehicle service booking system with technician-to-bay matching and concurrent double-booking guards backed by E2E test suites.
+* 🏠 **[boarding-house-manager](https://github.com/huyhhuy1410/boarding-house-manager)** — Full-stack React 18/Express PWA with atomic tenant room transfers within database transactions and Telegram Bot webhook (`/bill`) integration.
+* 💳 **[vnpay-wc-gateway](https://github.com/huyhhuy1410/vnpay-wc-gateway)** — Production-grade WooCommerce payment gateway supporting High-Performance Order Storage (HPOS), HMAC-SHA512 signing, and automated log retention cron.
+
+---
+
+### 📚 Continuous Learning & CS Foundations
+* 🎓 **Boot.dev Credentials:** *HTTP Servers & Clients*, *SQL & Databases*, *TypeScript*, *Python OOP*, *Docker*, *Linux Administration*, *Data Structures & Algorithms*.
+* 🤖 **Google & Kaggle:** *5-Day AI Agents Intensive* (Agentic Architectures & Spec-Driven Development).
+* 📖 **Currently Reading:** *Designing Data-Intensive Applications* by Martin Kleppmann.
+
+---
+📍 *Ho Chi Minh City, Vietnam* • 💬 *Open for Backend Developer & Engineering roles.*
