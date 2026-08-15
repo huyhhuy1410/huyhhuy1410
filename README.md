@@ -29,7 +29,6 @@
 ### 📚 Continuous Learning & CS Foundations
 * 🎓 **Boot.dev Credentials:** *HTTP Servers & Clients*, *SQL & Databases*, *TypeScript*, *Python OOP*, *Docker*, *Linux Administration*, *Data Structures & Algorithms*.
 * 🤖 **Google & Kaggle:** *5-Day AI Agents Intensive* & *Vibe Coding Course with Google* (Agentic Architectures, MCP & Spec-Driven Development).
-* 📖 **Currently Reading:** *Designing Data-Intensive Applications* by Martin Kleppmann.
 
 ---
 📍 *Ho Chi Minh City, Vietnam* • 💬 *Open for Backend Developer & Engineering roles.*
