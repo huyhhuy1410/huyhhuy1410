@@ -12,17 +12,17 @@
 ### ⚙️ Technical Focus & Engineering Depth
 * **Languages & Core:** PHP 8.x, TypeScript, Node.js, Python, SQL (MySQL 8, PostgreSQL).
 * **Frameworks & CMS:** Laravel 13, WordPress / WooCommerce (Custom Action/Filter Hooks, REST API, HPOS), Express.js, NestJS.
-* **Concurrency & Financial Integrity:** Pessimistic database locking (`SELECT ... FOR UPDATE`), double-entry ledger logic, Redis distributed locks (`SET EX NX`), and webhook idempotency keys.
+* **Concurrency & Financial Integrity:** Pessimistic database locking (`SELECT ... FOR UPDATE`), signed single-entry wallet ledger, Redis distributed locks (`SET EX NX`), and webhook idempotency keys.
 * **Payment Gateways & Security:** VNPAY, Momo, HMAC-SHA512 checksum validation, and IPN verification.
 * **Quality & Tooling:** Docker Compose, Linux, Git, PHPUnit, Jest, Vitest, Codex, Antigravity, Claude Code.
 
 ---
 
 ### 🚀 Key Projects & Code Highlights
-* 🎟️ **[travel-distribution-core](https://github.com/huyhhuy1410/travel-distribution-core)** — Laravel 13 B2B travel distribution API implementing database transactions with pessimistic locks (`FOR UPDATE`), tiered commission ledgers, and Redis payment idempotency.
+* 🎟️ **[travel-distribution-core](https://github.com/huyhhuy1410/travel-distribution-core)** — Laravel 13 B2B travel distribution API implementing database transactions with pessimistic locks (`FOR UPDATE`), tiered commission crediting (F1 5%, F2 2%) recorded as signed ledger entries, and Redis payment idempotency.
 * ⚡ **[ticket-realtime-hub](https://github.com/huyhhuy1410/ticket-realtime-hub)** — Node.js/TypeScript seat reservation service featuring Redis atomic locks (`SET EX NX` with 5-minute TTL), lazy expiry cleanup, and Socket.io seat-map sync.
-* 🏠 **[boarding-house-manager](https://github.com/huyhhuy1410/boarding-house-manager)** — Full-stack React 18/Express PWA with atomic tenant room transfers within database transactions and Telegram Bot webhook (`/bill`) integration.
-* 💳 **[vnpay-wc-gateway](https://github.com/huyhhuy1410/vnpay-wc-gateway)** — Production-grade WooCommerce payment gateway supporting High-Performance Order Storage (HPOS), HMAC-SHA512 signing, and automated log retention cron.
+* 🏠 **[boarding-house-manager](https://github.com/huyhhuy1410/boarding-house-manager)** — Full-stack React 18/Express PWA with atomic tenant room transfers inside database transactions and a Telegram Bot webhook (`/bill`) command for tenant bills. The Express version in this repository is the one that carries the Telegram bot; the NestJS rewrite in `boarding-house-manager-nestjs-rmk` does not.
+* 💳 **[vnpay-wc-gateway](https://github.com/huyhhuy1410/vnpay-wc-gateway)** — custom WooCommerce payment gateway plugin supporting High-Performance Order Storage (HPOS), HMAC-SHA512 signing, and automated log retention cron.
 
 ---
 
